@@ -252,7 +252,7 @@
         <div>jangan lupa bukti teep nya ya brok💗<br>agar disayang papa dan mama🥰</div>
     </div>
    <audio id="bg-music" src="https://files.catbox.moe/9gd2b7.mp3"></audio>
- <button onclick="toggleMusic()">[𝗣𝗟𝗔𝗬 𝗠𝗨𝗦𝗜𝗖]</button>
+ <button onclick="toggleMusic()">[𝗣𝗟𝗔𝗬 𝗠𝗨𝗦𝗜𝗖]<br>(click coy)</button>
   <div id="music-player" style="display:none; margin-top:10px; text-align:center;">
     <p id="music-title"><strong>Judul Lagu:</strong> Someone To Stay</p>
     <p id="music-artist"><strong>Dev:</strong> LuxSencee</p>
@@ -291,11 +291,11 @@
       if (audio.paused) {
         audio.play();
         musicPlayer.style.display = "block";
-        playButton.textContent = "[𝗣𝗟𝗔𝗬 𝗠𝗨𝗦𝗜𝗖]";
+        playButton.textContent = "[𝗣𝗔𝗨𝗦𝗘 𝗠𝗨𝗦𝗜𝗖]";
       } else {
         audio.pause();
         musicPlayer.style.display = "block";
-        playButton.textContent = "[𝗣??𝗨𝗦𝗘 𝗠𝗨𝗦𝗜𝗖]";
+        playButton.textContent = "[𝗣𝗟𝗔𝗬 𝗠𝗨𝗦𝗜𝗖]";
       }
     }
 
@@ -328,10 +328,10 @@
 
     audio.addEventListener("ended", () => {
       musicPlayer.style.display = "none";
-      playButton.textContent = "[𝗣𝗟𝗔𝗬 𝗠𝗨𝗦𝗜𝗖]";
+      playButton.textContent = "[𝗣𝗟𝗔𝗬 𝗠𝗨𝗦𝗜𝗖]<br>click coy";
       seekBar.value = 0;
       currentTimeElem.textContent = "0:00";
     });
   </script>
 </body>
-</html>
+  </html>
